@@ -14,4 +14,4 @@ py offline.py
 - cuda128 installer for 50 serise card
 - installer.bat (online) and run.bat (offline); linked to the py script above
 
-#### reference: [lllyasviel](https://github.com/lllyasviel/FramePack)
+#### reference: framepack by [lllyasviel](https://github.com/lllyasviel/FramePack)
