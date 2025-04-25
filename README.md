@@ -14,5 +14,5 @@ py offline.py
 - cuda128 installer for 50 series card
 - installer.bat (online) and run.bat (offline); linked to the py script above
 
-#### reference: framepack by [lllyasviel](https://github.com/lllyasviel/FramePack)
+### reference: framepack by [lllyasviel](https://github.com/lllyasviel/FramePack)
 ![screenshot](https://raw.githubusercontent.com/calcuis/gguf-pack/master/framepack.png)
