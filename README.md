@@ -10,7 +10,7 @@ when all the model files stored locally; then switch to run it offline by:
 py offline.py
 ```
 
-### protable pack (under releases)
+### portable pack (under releases)
 - cuda128 installer for 50 series card
 - installer.bat (online) and run.bat (offline); linked to the py script above
 
