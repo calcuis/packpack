@@ -11,7 +11,7 @@ py offline.py
 ```
 
 ### protable pack (under releases)
-- cuda128 installer for 50 serise card
+- cuda128 installer for 50 series card
 - installer.bat (online) and run.bat (offline); linked to the py script above
 
 #### reference: framepack by [lllyasviel](https://github.com/lllyasviel/FramePack)
