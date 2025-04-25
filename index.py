@@ -46,11 +46,11 @@ high_vram = free_mem_gb > 60
 print(f'Free VRAM {free_mem_gb} GB')
 print(f'High-VRAM Mode: {high_vram}')
 
-text_encoder = LlamaModel.from_pretrained("hunyuanvideo-community/HunyuanVideo", subfolder='text_encoder', torch_dtype=torch.float16).cpu()
-text_encoder_2 = CLIPTextModel.from_pretrained("hunyuanvideo-community/HunyuanVideo", subfolder='text_encoder_2', torch_dtype=torch.float16).cpu()
-tokenizer = LlamaTokenizerFast.from_pretrained("hunyuanvideo-community/HunyuanVideo", subfolder='tokenizer')
-tokenizer_2 = CLIPTokenizer.from_pretrained("hunyuanvideo-community/HunyuanVideo", subfolder='tokenizer_2')
-vae = AutoencoderKLHunyuanVideo.from_pretrained("hunyuanvideo-community/HunyuanVideo", subfolder='vae', torch_dtype=torch.float16).cpu()
+text_encoder = LlamaModel.from_pretrained("callgg/pack-encoder", subfolder='text_encoder', torch_dtype=torch.float16).cpu()
+text_encoder_2 = CLIPTextModel.from_pretrained("callgg/pack-encoder", subfolder='text_encoder_2', torch_dtype=torch.float16).cpu()
+tokenizer = LlamaTokenizerFast.from_pretrained("callgg/pack-encoder", subfolder='tokenizer')
+tokenizer_2 = CLIPTokenizer.from_pretrained("callgg/pack-encoder", subfolder='tokenizer_2')
+vae = AutoencoderKLHunyuanVideo.from_pretrained("callgg/pack-encoder", subfolder='vae', torch_dtype=torch.float16).cpu()
 
 feature_extractor = SiglipImageProcessor.from_pretrained("callgg/flux", subfolder='feature_extractor')
 image_encoder = SiglipVisionModel.from_pretrained("callgg/flux", subfolder='image_encoder', torch_dtype=torch.float16).cpu()
