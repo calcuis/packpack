@@ -1,11 +1,11 @@
 ## packpack
 
-for model installer: run `online.py` (internet access needed)
+for 1st time launch or model install: run `online.py` (internet access needed)
 ```
 py online.py
 ```
 
-when all the model files stored locally; run it offline by
+when all the model files stored locally; then switch to run it offline by:
 ```
 py offline.py
 ```
