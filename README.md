@@ -4,8 +4,7 @@ all-in-one approach
 ```
 py index.py
 ```
-- the current approach merged the online and offline together
-- hence, those two are no longer needed
+- the current approach merged the online and offline together; hence, these two are no longer needed
 
 ### portable pack (under releases)
 - cuda128 installer for 50 series card
